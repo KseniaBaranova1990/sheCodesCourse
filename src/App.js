@@ -1,8 +1,12 @@
-import React from "react";
-
+import React, { Component } from "react";
+import SimpleInput from "./components/SimpleInput";
 
 function App() {
-  return <p>R</p>;
+  return (
+    <div className="app">
+      <SimpleInput />
+    </div>
+  );
 }
 
 export default App;
